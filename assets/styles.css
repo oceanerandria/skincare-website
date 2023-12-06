@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Chewy&family=DM+Sans&family=Fira+Sans&family=Kaushan+Script&family=Satisfy&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@200&family=Kaushan+Script&display=swap');
+
+/* GENERAL */
+body{
+    font-family: 'Inter';
+    background-color: #FBE8DA;
+}
+.left{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* PANTRY */
+.headerTitle{
+    font-size: 35pt;
+    line-height: .9;
+    
+}
+.spanTitle{
+    font-size: 45pt;
+    font-family: 'Kaushan Script', 'Arial';
+}
+.pantryIcon {
+    height: 150px;
+    width: auto;
+    
+}
+.line{
+    border: 3px solid #662900;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+/* RECIPES */
+.recipes {
+    background-color: #D6A2A4; 
+    width: 400px;
+    border-radius: 12px;
+    padding: 5%; 
+    margin-top: 25%;
+    margin-left: 20%;
+    text-align: center;
+}
+.icons{
+    width: 150px; 
+}
+.title{
+    font-family: 'Kaushan Script', 'Arial';
+    font-size: 2em;
+    margin: 0;
+}
+.subtitle{
+    margin-top: 0;
+    font-size: .7em;
+}
+.text{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+/* RECOMMENDATIONS */
+.section{
+    padding-bottom: 5%;
+    padding-top: 3%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+#recommendations{
+    margin-top: 5%;
+    background-color: #C8B976;
+}
+.headerText{  
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 12%;
+    padding: 2%;
+}
+#recoTitle {
+    text-align: center;
+    font-size: 50px;
+}
+#recoSubtitle {
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    width: 95%;
+    margin-left: auto; 
+    margin-right: auto;
+    grid-template-columns: auto auto auto;
+    margin-top: 1%;
+    grid-gap: 10px;
+}
+.grid-item{
+    border: 2px solid white;
+    border-radius: 12px; 
+}
+.grid-img{
+    margin-top: 5px;
+    padding: 5px;
+    height: 150px;
+    width: auto;
+    justify-content: inline-block;
+    margin-left: 35%;
+    border-radius: 12px;
+}
+.text{
+    justify-content: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.bold{
+    font-weight: bold;
+}
+#serum{
+    margin-left: 40%;
+}
+.grid-item:hover {
+    box-shadow: 3px 3px 3px 3px #F8F1D4;
+}
+/* DOS AND DONTS */
+.section3{
+  margin-top: 0px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+#section3-title{
+    text-align:left;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+#do{
+    border: 10px solid #AFBF36;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 10px;
+    border-radius: 12px;
+    width: 40%
+}
+#dont{
+    border: 10px solid #EC5D57;
+    width: 40%;
+    border-radius: 12px;
+}
+.list-item{
+    padding-left: 2%;
+}
+#routine{
+    padding: 10px;
+    background-color:#D9AC84;
+}
+#routine:hover{
+    scale: 1.1;
+}
+
+.footer{
+    padding-top: 20px; 
+    background-color: #D6A2A4;
+    margin: 0;
+    align-items: center;
+}
+.footer-text {
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center; 
+}
+/* make everything responsive - accessible to mobile frames */
+@media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    .main-interaction{
+        margin: 5%;
+    }
+    .left{
+        display: block;
+        width: 100%;
+    }
+
+    .headerTitle{ 
+        font-size: 1.2em;
+    }
+
+    #mainTitle{
+        font-size: 2em;
+        margin-bottom: 10%;
+    }
+
+    .spanTitle{
+        font-size: 1.7em;
+    }
+    .line{
+        width: 80%;
+        border: 2px solid #662900;
+    }
+    .pantry{
+        width: 100%;
+    }
+    .pantryIcon{
+        width: 22%; 
+        height: auto; 
+    }
+    .left{
+        display: block;
+    }
+
+    .right{
+        display: block;
+        width: 50%;
+        margin-top: 5%; 
+    }
+    .recipes {
+        background-color: #D6A2A4; 
+        width: 180%;
+        border-radius: 12px;
+        text-align: center;
+        margin: 0;
+    }
+    .icons{
+        width: 50px; 
+    }
+    .title{
+        font-family: 'Kaushan Script', 'Arial';
+        font-size: 1em;
+        margin: 0;
+    }
+    .subtitle{
+        margin-top: 0;
+        font-size: .5em;
+    }
+    .recipeText{
+        padding: 0;
+        font-size: .5em;
+    }
+
+
+    .section{
+        width: 85%;
+        margin: 0px;
+        padding-bottom: 5%;
+        padding-top: 3%;
+        border-radius: 12px;
+    } 
+    #recommendations {
+        margin-left: 6%;
+        margin-right: 0;
+    }
+    .headerText{  
+        border-radius: 20px;
+        width: 70%;
+        margin-left: 12%;
+        padding: 2%;
+    }
+    
+    #recoTitle {
+        text-align: center;
+        font-size: 1em;
+    }
+    #recoSubtitle {
+        text-align: center;
+    }
+
+    .grid-container{
+        displaY: block;
+        margin-bottom: 5px;
+    }
+    .grid-item{
+        margin-bottom: 5%;
+        margin-left: 2%; 
+        width: 95%;
+        height: 50%;
+        display: flex; 
+        align-items: center;
+    }
+    .grid-img{
+        width: 30%;
+        height: auto;
+        
+    }
+    #griditem{
+       
+    }
+    #cream-img {
+        display: inline;
+        margin-left: 5px; 
+        width: 80px;
+    }
+    #products-img {
+        display: inline;
+        margin-left: 5px; 
+        height: 100px;
+        width: auto;
+    }
+    .text{
+        margin: 5%;
+      font-size: .5em; 
+    }
+    
+    #section3 {
+        width: 100%;
+        margin-left: 7%;
+    }
+
+    #do {
+        width:  75%;
+        margin: 0;
+        margin-bottom: 2%;
+    }
+    #dont{
+        width:  75%;
+        margin: 0;
+    }
+
+    #routines {
+        width: 90%;
+        margin-left: 1.5%;
+    }
+    #routine{
+        height: 100%;
+    }
+    #routine-img {
+        margin-left: 0;
+    }
+
+}
