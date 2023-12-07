@@ -176,6 +176,10 @@ body{
     padding-top: 20px;
     text-align: center; 
 }
+.socials-logo{
+    margin-left: 50%;
+    width: 4%;
+}
 /* make everything responsive - accessible to mobile frames */
 @media screen and (max-width: 600px) {
     body{
